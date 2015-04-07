@@ -89,7 +89,7 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
         <scene sceneID="o0e-BD-gJd">
             <objects>
                 <viewController storyboardIdentifier="modalViewController" id="k7r-W4-xPc" customClass="ModalViewController" customModule="Lesson03" customModuleProvider="target" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="P0G-mm-jMc">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1419618-unicorn2.jpg" id="P0G-mm-jMc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -117,4 +117,7 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
             <point key="canvasLocation" x="969" y="407"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1419618-unicorn2.jpg" width="800" height="600"/>
+    </resources>
 </document>

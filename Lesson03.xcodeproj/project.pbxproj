@@ -15,6 +15,7 @@
 		5DCED9A919D8DF0800DE1DC2 /* ArrayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9A819D8DF0800DE1DC2 /* ArrayTableViewController.swift */; };
 		5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */; };
 		88F7264C1AD34D6A00C69F96 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7264B1AD34D6A00C69F96 /* ModalViewController.swift */; };
+		88F7264E1AD3670F00C69F96 /* 1419618-unicorn2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7264D1AD3670F00C69F96 /* 1419618-unicorn2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		5DCED9A819D8DF0800DE1DC2 /* ArrayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTableViewController.swift; sourceTree = "<group>"; };
 		5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		88F7264B1AD34D6A00C69F96 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		88F7264D1AD3670F00C69F96 /* 1419618-unicorn2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1419618-unicorn2.jpg"; path = "../../../../Desktop/1419618-unicorn2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				5DCED98A19D8DC9B00DE1DC2 /* ViewController.swift */,
 				88F7264B1AD34D6A00C69F96 /* ModalViewController.swift */,
 				5DCED98C19D8DC9B00DE1DC2 /* Main.storyboard */,
+				88F7264D1AD3670F00C69F96 /* 1419618-unicorn2.jpg */,
 				5DCED98F19D8DC9B00DE1DC2 /* Images.xcassets */,
 				5DCED98619D8DC9B00DE1DC2 /* Supporting Files */,
 			);
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DCED98E19D8DC9B00DE1DC2 /* Main.storyboard in Resources */,
+				88F7264E1AD3670F00C69F96 /* 1419618-unicorn2.jpg in Resources */,
 				5DCED99019D8DC9B00DE1DC2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
