@@ -16,6 +16,11 @@ class ViewController: UIViewController {
         println("swipe")
         var detail = self.storyboard?.instantiateViewControllerWithIdentifier("modalViewController") as ModalViewController
         self.presentViewController(detail, animated: true, completion: nil)
+        detail.superController = self
+    }
+    
+    func dismissModal(){
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     /*

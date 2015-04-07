@@ -9,7 +9,10 @@
 import UIKit
 
 class ModalViewController: UIViewController {
-
+    var superController:ViewController!
+    @IBAction func dismissModal(sender: AnyObject) {
+        superController.dismissModal()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
