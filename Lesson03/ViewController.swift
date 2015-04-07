@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var swipeRight: UISwipeGestureRecognizer!
-    
+    @IBOutlet var swipeLeft: UISwipeGestureRecognizer!
     @IBAction func showTableView(sender: AnyObject) {
         self.performSegueWithIdentifier("show", sender: self)
     }

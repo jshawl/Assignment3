@@ -47,6 +47,9 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fJK-or-BP0" appends="YES" id="xMS-Bn-efx"/>
+                                </connections>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AG3-bY-Vru">
                                 <rect key="frame" x="236" y="382" width="128" height="30"/>
@@ -72,10 +75,13 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="SkO-XJ-Gan" appends="YES" id="Gh5-Su-FWk"/>
+                            <outletCollection property="gestureRecognizers" destination="fJK-or-BP0" appends="YES" id="H2b-Q6-OiL"/>
+                            <outletCollection property="gestureRecognizers" destination="fJK-or-BP0" appends="YES" id="JzS-52-zoG"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="hzY-Hy-RMA"/>
                     <connections>
+                        <outlet property="swipeLeft" destination="fJK-or-BP0" id="PGZ-qA-kiZ"/>
                         <outlet property="swipeRight" destination="SkO-XJ-Gan" id="Vbh-Vj-qjn"/>
                         <segue destination="tH5-nV-9zA" kind="show" identifier="show" id="O1F-Kb-DN0"/>
                     </connections>
@@ -83,7 +89,12 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="SkO-XJ-Gan">
                     <connections>
-                        <action selector="displayModally:" destination="vXZ-lx-hvc" id="8Sp-Rb-Wmj"/>
+                        <action selector="displayModally:" destination="vXZ-lx-hvc" id="T11-pl-Fgf"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="fJK-or-BP0">
+                    <connections>
+                        <action selector="displayModally:" destination="vXZ-lx-hvc" id="Anx-lm-txh"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -125,6 +136,8 @@ It needs to have an image view and a dismiss button that dismisses the modal. Do
                             <constraint firstItem="cfc-xd-fcv" firstAttribute="top" secondItem="Va4-L9-8Qh" secondAttribute="bottom" id="bVY-39-bcL"/>
                             <constraint firstItem="cfc-xd-fcv" firstAttribute="leading" secondItem="IFm-tz-1eB" secondAttribute="leadingMargin" id="fu9-eS-VFt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fl5-wg-rlx" secondAttribute="trailing" id="l6b-fS-fhY"/>
+                            <constraint firstItem="fl5-wg-rlx" firstAttribute="leading" secondItem="IFm-tz-1eB" secondAttribute="leadingMargin" id="x6y-Pc-Eqq"/>
+                            <constraint firstItem="94e-fz-y3R" firstAttribute="top" secondItem="fl5-wg-rlx" secondAttribute="bottom" constant="20" id="xtI-zo-7pK"/>
                             <constraint firstItem="94e-fz-y3R" firstAttribute="top" secondItem="fl5-wg-rlx" secondAttribute="bottom" constant="20" id="y1g-ch-yrZ"/>
                         </constraints>
                     </view>
