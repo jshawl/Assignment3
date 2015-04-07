@@ -16,6 +16,7 @@
 		5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */; };
 		88F7264C1AD34D6A00C69F96 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7264B1AD34D6A00C69F96 /* ModalViewController.swift */; };
 		88F7264E1AD3670F00C69F96 /* 1419618-unicorn2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7264D1AD3670F00C69F96 /* 1419618-unicorn2.jpg */; };
+		88F726501AD36C4700C69F96 /* Unicorn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7264F1AD36C4700C69F96 /* Unicorn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		88F7264B1AD34D6A00C69F96 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		88F7264D1AD3670F00C69F96 /* 1419618-unicorn2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1419618-unicorn2.jpg"; path = "../../../../Desktop/1419618-unicorn2.jpg"; sourceTree = "<group>"; };
+		88F7264F1AD36C4700C69F96 /* Unicorn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unicorn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				5DCED9A819D8DF0800DE1DC2 /* ArrayTableViewController.swift */,
 				5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */,
+				88F7264F1AD36C4700C69F96 /* Unicorn.swift */,
 				5DCED98819D8DC9B00DE1DC2 /* AppDelegate.swift */,
 				5DCED98A19D8DC9B00DE1DC2 /* ViewController.swift */,
 				88F7264B1AD34D6A00C69F96 /* ModalViewController.swift */,
@@ -225,6 +228,7 @@
 				88F7264C1AD34D6A00C69F96 /* ModalViewController.swift in Sources */,
 				5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */,
 				5DCED98B19D8DC9B00DE1DC2 /* ViewController.swift in Sources */,
+				88F726501AD36C4700C69F96 /* Unicorn.swift in Sources */,
 				5DCED98919D8DC9B00DE1DC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var swipeRight: UISwipeGestureRecognizer!
     
+    @IBAction func showTableView(sender: AnyObject) {
+        self.performSegueWithIdentifier("show", sender: self)
+    }
     
     @IBAction func displayModally(sender: AnyObject) {
         println("swipe")
@@ -30,6 +33,7 @@ class ViewController: UIViewController {
     TODO three: Add and hook up a ‘dismiss’ button below the above mentioned image view that will dismiss the modal dialog. Do this in CODE.
     TODO four: Hook up the button on the home screen to push ArrayTableViewController into view (via the navigation controller) when tapped. Do this by triggering a segue from this view controller. The method you are looking for is performSegueWithIdentifier. Find the identifier from the storyboard.
     */
+    
 
 }
 
